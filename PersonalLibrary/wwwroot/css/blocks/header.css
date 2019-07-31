@@ -1,0 +1,118 @@
+﻿.header {
+  background: url('../../img/1366x768_books-old-reading-bunch-books.jpg');
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.header__wrap {
+  position: relative;
+  height: 100vh;
+}
+
+.header__top {
+  position: inherit;
+  left: 750px;
+  top: 100px;
+}
+
+.header__logo {
+  position: relative;
+  left: 0;
+  color: white;
+}
+
+.h1__forMedia {
+}
+
+.submenu {
+  text-align: left;
+  line-height: normal;
+  height: 0px;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+
+.menu-item {
+  text-align: left;
+  font-size: 20px;
+  overflow: hidden;
+  transition: all 0.5s ease-in;
+}
+
+.upload__button {
+  color: black;
+}
+
+.btn-primary {
+  position: relative;
+  background-color: black;
+  display: list-item;
+}
+
+@media (max-width: 1150px) {
+  .header__top {
+    position: inherit;
+    left: 400px;
+    top: 100px;
+  }
+}
+
+@media (max-width: 830px) {
+  .header__top {
+    position: inherit;
+    left: 200px;
+    top: 50px;
+    color: aqua;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__top {
+    position: inherit;
+    left: 100px;
+    top: 50px;
+    color: aqua;
+  }
+  .button {
+    font-size: smaller;
+    max-width: 250px;
+  }
+  .h1__forMedia {
+    font-size: 30px;
+  }
+  .h4 {
+    font-size: 1rem;
+  }
+  .btn-primary {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .header__top {
+    position: inherit;
+    left: 50px;
+    top: 20px;
+    color: aqua;
+  }
+
+  .button {
+    max-width: 250px;
+  }
+
+  .h1__forMedia {
+    font-size: 20px;
+  }
+
+  .header__logo {
+    position: relative;
+    left: 0;
+    color: grey;
+    font-size: 10px;
+  }
+  .header {
+    max-height: 700px;
+  }
+}
